@@ -1,8 +1,26 @@
 aid: nimsoft
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nimsoft.png
 name: Nimsoft
-description: 'Nimsoft is a company surfaced as a portfolio company of northzone and added to the API Evangelist
-  network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Nimsoft was a SaaS-based IT infrastructure and application monitoring and
+  service-desk company, founded in 1998 as Nimbus Software in Oslo, Norway and later
+  headquartered in Redwood City, California. Backed by Northzone and JMI Equity, it was
+  acquired by CA Technologies in March 2010 for roughly $350 million, after which its
+  products were folded into CA Unified Infrastructure Management (UIM). CA was in turn
+  acquired by Broadcom in 2018, and the former Nimsoft monitoring capability now lives
+  on as Broadcom DX Unified Infrastructure Management. The www.nimsoft.com domain today
+  resolves to Broadcom infrastructure, and Nimsoft has no independent developer portal,
+  public API, or OpenAPI surface of its own.'
 url: https://raw.githubusercontent.com/api-evangelist/nimsoft/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Enterprise
+- Monitoring
+- IT Operations
+- Observability
+- Infrastructure Management
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/nimsoft-domain-security.yml
 - type: Website
   url: http://www.nimsoft.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
