@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'http://www.nimsoft.com', status: 301, note: 'declared website redirects to https://www.broadcom.com/products/software/aiops-observability/infrastructure-management — a different registrable domain (nimsoft.com -> broadcom.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nimsoft.png
 name: Nimsoft
 description: 'Nimsoft was a SaaS-based IT infrastructure and application monitoring and
